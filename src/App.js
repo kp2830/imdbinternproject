@@ -6,9 +6,10 @@ import MovieList from "./Pages/MovieList.tsx";
 import MovieDetails from "./Pages/MovieDetails.tsx";
 import Toprated from "./Pages/Toprated.jsx";
 import Actordetails from "./Pages/Actordetails.tsx";
+
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/imdbinternproject">
       <div className="min-h-screen bg-black text-white">
         <Navbar />
         <Routes>
