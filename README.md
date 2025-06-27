@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# 🎬 IMDb Intern Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a responsive movie browsing web app built using React, TypeScript, Tailwind CSS, and Framer Motion. It fetches live movie data from the TMDB API and displays trending, top-rated, and individual movie or actor details. The homepage features a smooth, animated horizontal carousel of trending movies with autoplay, drag functionality, arrows, and dots for navigation.
 
-## Available Scripts
+## 🌐 Live Demo
 
-In the project directory, you can run:
+🔗 https://kp2830.github.io/imdbinternproject/
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+•⁠  ⁠🎞️ Trending movie carousel with autoplay, drag, arrows, and dots  
+•⁠  ⁠🔍 Browse movies and view detailed movie pages  
+•⁠  ⁠🎭 View actor details and their associated films  
+•⁠  ⁠🎨 Responsive design using Tailwind CSS  
+•⁠  ⁠⚡ Smooth animations with Framer Motion  
+•⁠  ⁠🔗 Routing using React Router DOM  
+•⁠  ⁠🌍 Deployed via GitHub Pages and GitHub Actions  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+•⁠  ⁠React with TypeScript  
+•⁠  ⁠Tailwind CSS  
+•⁠  ⁠Framer Motion  
+•⁠  ⁠React Router  
+•⁠  ⁠TMDB API  
+•⁠  ⁠GitHub Pages (deployment)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started (for local development)
 
-### `npm run build`
+1.⁠ ⁠Clone the repository:  
+   ⁠ bash
+   git clone https://github.com/kp2830/imdbinternproject.git
+   cd imdbinternproject
+    ⁠
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2.⁠ ⁠Install dependencies:  
+   ⁠ bash
+   npm install
+    ⁠
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3.⁠ ⁠Add your TMDB API key:  
+   Create a file named ⁠ .env ⁠ in the root and add:  
+   
+⁠    VITE_TMDB_API_KEY=your_api_key_here
+    ⁠
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4.⁠ ⁠Start the development server:  
+   ⁠ bash
+   npm run dev
+    ⁠
 
-### `npm run eject`
+## 📄 License & Acknowledgments
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-source under the MIT License.  
+Built as part of an internship project using the TMDB API and modern frontend tools.
